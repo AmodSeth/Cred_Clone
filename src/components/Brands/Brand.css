@@ -1,0 +1,30 @@
+.Brand{
+    background-color: var(--txt-white);
+    color: black;
+    padding: 60px;
+}
+.brand-heading{
+    font-size: 28px;
+    font-weight: 800;
+}
+.brand-banner{
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/brands-desktop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 50px;
+    width: 100%;
+    margin-top: 50px;    
+}
+@media all and (max-width:767px) {
+    .brand-heading{
+        font-size: 18px;
+    }
+    .brand-banner{
+        background-size: contain;
+        height: 240px;
+        margin-top: 35px;
+        background-position: left center;
+        background-image: url(	https://web-images.credcdn.in/_next/assets/images/home-page/brands-mobile.png);
+    }
+}

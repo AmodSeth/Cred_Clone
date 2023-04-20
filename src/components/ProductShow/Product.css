@@ -1,0 +1,63 @@
+.showcase{
+    width: 100vw;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png);
+    /* background-color: white; */
+    background-size: cover;
+    background-position: right bottom;
+
+}
+.showcase-wrapper{
+    min-width: 70%;
+
+}
+.showcase-ui{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+.img-1{
+    transform: translate(-160%,20%);
+    z-index: 98;
+
+}
+.img-2{
+    transform: translate(-105%,15%);
+    z-index: 99;
+
+}
+.img-3{
+    transform: translate(-50%,5%);
+    z-index: 100;
+
+}
+.img-4{
+    transform: translate(5%,15%);
+    z-index: 99;
+
+}
+.img-5{
+    transform: translate(60%,25%);
+    z-index: 98;
+
+}
+@media  all and (max-width:1279px){
+    .showcase{
+        height: 620px;
+    }
+    .showcase-ui{
+        width: 300px;
+    }
+    
+}
+@media  all and (max-width:729px){
+    .showcase{
+        height: 450px;
+    }
+    .showcase-ui{
+        width: 170px;
+    }
+    
+}
